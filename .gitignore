@@ -1,0 +1,78 @@
+# General OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# Logs and temp files
+*.log
+*.out
+*.pid
+*.seed
+*.stackdump
+*.tmp
+*.swp
+*.swn
+*.swo
+*.DS_Store
+*.pyc
+*.pyo
+*.pyd
+
+# Go-specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+*.out
+*.sum
+*.mod
+*.a
+*.cgo/
+
+# Go build and cache
+/bin/
+/pkg/
+/tmp/
+/vendor/
+
+# Go coverage files
+coverage.out
+
+# Go dependency management tools
+Gopkg.lock
+go.sum
+go.work
+go.work.sum
+
+# Debugging and profiling
+pprof/
+
+# cgo intermediate files
+*_cgo_*
+
+# Compiled binary directories
+bin/
+obj/
+
+# Node & JS/TS (if using frontend with Go)
+node_modules/
+npm-debug.log
+yarn.lock
+.pnpm-debug.log
